@@ -27,7 +27,7 @@ export default function Carousel({ swiperRef }) {
   return (
     <Swiper
       modules={[Navigation]}
-      spaceBetween={36}
+      spaceBetween={12}
       slidesPerView={3}
       onSwiper={(swiper) => (swiperRef.current = swiper)}
     >

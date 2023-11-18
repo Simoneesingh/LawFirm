@@ -5,7 +5,7 @@ import { useRef } from "react";
 export default function Clients() {
   const swiperRef = useRef();
   return (
-    <div className="bg-background px-32 py-20 flex flex-col  gap-10">
+    <div className="bg-background px-16 py-20 flex flex-col  gap-10">
       <div className="flex items-center justify-around gap-20">
         <h2 className="text-white text-4xl font-bold leading-snug max-w-[387px]">
           What says our happy Clients
@@ -25,7 +25,7 @@ export default function Clients() {
           </button>
         </div>
       </div>
-      <div className="px-60">
+      <div>
         <Carousel swiperRef={swiperRef} />
       </div>
     </div>
