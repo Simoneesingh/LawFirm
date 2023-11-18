@@ -1,7 +1,7 @@
 export default function Introduction() {
   return (
     <div className="bg-background p-20 flex items-center justify-around gap-10">
-      <h2 className="text-white text-4xl font-medium leading-snug max-w-[387px] max-h-[174px]">
+      <h2 className="text-white text-4xl font-bold leading-snug max-w-[387px] max-h-[174px]">
         Let's Introduce Ourselves
       </h2>
       <div className="w-[2px] h-[130px] bg-white/30 mx-4"></div>

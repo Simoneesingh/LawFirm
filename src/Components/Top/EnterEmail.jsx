@@ -6,7 +6,7 @@ export default function EnterEmail() {
       <EmailIcon className="text-gray-500" />
       <input
         placeholder="Enter your email address"
-        className="bg-highlight border-none"
+        className="bg-highlight outline-none"
       />
       <button className="absolute right-0 flex items-center p-4 cursor-pointer bg-onHover rounded-full mr-2 font-bold ">
         Let's Talk

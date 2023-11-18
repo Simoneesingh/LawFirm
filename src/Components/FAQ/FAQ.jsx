@@ -3,7 +3,7 @@ import FaqAccordion from "./Accordion";
 export default function FAQ() {
   return (
     <div className="flex flex-col justify-around bg-background px-52 py-20 gap-10 max-h-[629px] ">
-      <h2 className="text-white font-medium text-4xl items-start">FAQ</h2>
+      <h2 className="text-white font-bold text-4xl items-start">FAQ</h2>
       <div className="flex flex-1 gap-56">
         <p className="text-white/30 max-w-[600px] leading-snug">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet

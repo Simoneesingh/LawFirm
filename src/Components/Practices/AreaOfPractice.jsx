@@ -2,9 +2,9 @@ import PictureCard from "./PictureCard";
 
 export default function AreaOfPractice() {
   return (
-    <div className="flex items-center justify-center bg-background p-20">
+    <div className=" flex items-center justify-center bg-background p-16 h-[1228px] ">
       <div className="flex flex-col gap-16">
-        <h2 className="text-white font-medium text-4xl text-center">
+        <h2 className="text-white font-bold text-4xl text-center">
           Area of Practices
         </h2>
         <div className="grid grid-cols-3 gap-4 ">

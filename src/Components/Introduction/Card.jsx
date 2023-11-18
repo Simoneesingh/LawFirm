@@ -4,8 +4,8 @@ export default function Card({ percentage }) {
       <div>
         <img src="./gift.png" alt="icon" />
       </div>
-      <h4 className="text-b1 font-medium">{percentage} Success Rate</h4>
-      <span className="text-white/30 text-sm">
+      <h4 className="text-b1 font-bold">{percentage} Success Rate</h4>
+      <span className="text-white/30 text-sm font-medium">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
         sint. Velit officia consequatduis enim velit mollit Exer.
       </span>

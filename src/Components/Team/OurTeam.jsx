@@ -18,16 +18,12 @@ export default function OurTeam() {
     "./Nik.png",
   ];
   return (
-    <div>
-      <div className="flex flex-col items-center justify-around bg-background p-24  gap-20">
-        <h2 className="text-white font-medium text-4xl text-center">
-          Our Team
-        </h2>
-        <div className="grid grid-cols-3 gap-16 ">
-          {names.map((name, index) => (
-            <TeamCard key={name} name={name} image={images[index]} />
-          ))}
-        </div>
+    <div className="flex flex-col items-center justify-center bg-background p-20 gap-20">
+      <h2 className="text-white font-bold text-4xl text-center">Our Team</h2>
+      <div className="grid grid-cols-3 gap-12">
+        {names.map((name, index) => (
+          <TeamCard key={name} name={name} image={images[index]} />
+        ))}
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 export default function TeamCard({ name, number, image }) {
   return (
-    <div className="flex items-center bg-background hover:bg-onHover hover:text-black rounded-lg mr-12 px-4 py-2 gap-2 w-[344px] h-[109px] ">
+    <div className="flex items-center bg-background hover:bg-onHover hover:text-black rounded-lg px-4 py-2 gap-2 w-[344px] h-[109px] ">
       <img
         src={image}
         alt="Person"

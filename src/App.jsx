@@ -11,7 +11,6 @@ import Clients from "./Components/HappyClients/Clients";
 export default function App() {
   return (
     <div className="h-screen bg-background">
-      <span className="text-gray-500 p-2 ">Law_Firm</span>
       <Top />
       <Introduction />
       <WhyChooseUs />

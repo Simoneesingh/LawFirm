@@ -7,7 +7,7 @@ export default function Clients() {
   return (
     <div className="bg-background px-32 py-20 flex flex-col  gap-10">
       <div className="flex items-center justify-around gap-20">
-        <h2 className="text-white text-4xl font-medium leading-snug max-w-[387px]">
+        <h2 className="text-white text-4xl font-bold leading-snug max-w-[387px]">
           What says our happy Clients
         </h2>
         <div className="flex gap-4 ">
