@@ -32,7 +32,7 @@ export default function Carousel({ swiperRef }) {
       onSwiper={(swiper) => (swiperRef.current = swiper)}
     >
       {names.map((name, index) => (
-        <SwiperSlide key={name} className="max-w-[359px]  min-h-[368px]">
+        <SwiperSlide key={name}>
           <ClientCards name={name} image={images[index]} />
         </SwiperSlide>
       ))}

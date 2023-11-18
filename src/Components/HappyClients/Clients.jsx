@@ -5,9 +5,9 @@ import { useRef } from "react";
 export default function Clients() {
   const swiperRef = useRef();
   return (
-    <div className="bg-background px-16 py-20 flex flex-col  gap-10">
-      <div className="flex items-center justify-around gap-20">
-        <h2 className="text-white text-4xl font-bold leading-snug max-w-[387px]">
+    <div className="bg-background px-20 py-20 flex flex-col  items-center justify-around gap-10">
+      <div className="flex items-center justify-around w-full ">
+        <h2 className="text-white text-4xl font-bold leading-snug w-[387px]">
           What says our happy Clients
         </h2>
         <div className="flex gap-4 ">
@@ -25,7 +25,7 @@ export default function Clients() {
           </button>
         </div>
       </div>
-      <div>
+      <div className="max-w-[80%] gap-10 px-10 ">
         <Carousel swiperRef={swiperRef} />
       </div>
     </div>

@@ -26,10 +26,10 @@ export default function Footer() {
           </ul>
         </div>
         <button className=" flex flex-row text-icon gap-2">
-          <InstagramIcon />
-          <FacebookIcon />
-          <TwitterIcon />
-          <PinterestIcon />
+          <InstagramIcon fontSize="large" />
+          <FacebookIcon fontSize="large" />
+          <TwitterIcon fontSize="large" />
+          <PinterestIcon fontSize="large" />
         </button>
       </div>
 
